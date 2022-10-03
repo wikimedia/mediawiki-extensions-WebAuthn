@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"webauthn-desc": "Zagotavlja avtentikacijsko podporo s protokolom WebAuthn",
+	"webauthn-error-verification-failed": "Preverjanje ni uspelo"
+}
