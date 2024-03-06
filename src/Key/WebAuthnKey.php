@@ -109,16 +109,6 @@ class WebAuthnKey implements IAuthKey {
 	protected $credentialType = PublicKeyCredentialDescriptor::CREDENTIAL_TYPE_PUBLIC_KEY;
 
 	/**
-	 * @var array
-	 */
-	protected $credentialTransports = [
-		PublicKeyCredentialDescriptor::AUTHENTICATOR_TRANSPORT_USB,
-		PublicKeyCredentialDescriptor::AUTHENTICATOR_TRANSPORT_NFC,
-		PublicKeyCredentialDescriptor::AUTHENTICATOR_TRANSPORT_BLE,
-		PublicKeyCredentialDescriptor::AUTHENTICATOR_TRANSPORT_INTERNAL
-	];
-
-	/**
 	 * @var string
 	 */
 	protected $credentialAttestationType = '';
@@ -196,7 +186,7 @@ class WebAuthnKey implements IAuthKey {
 			"friendlyName" => $this->friendlyName,
 			"counter" => $this->signCounter,
 			"type" => $this->credentialType,
-			"transports" => $this->credentialTransports,
+			"transports" => $this->getTransports(),
 			"attestationType" => $this->credentialAttestationType,
 			"trustPath" => $this->credentialTrustPath
 		];
@@ -337,7 +327,8 @@ class WebAuthnKey implements IAuthKey {
 	 * @return array
 	 */
 	public function getTransports() {
-		return $this->credentialTransports;
+		// FIXME: We should be loading these from the DB
+		return PublicKeyCredentialDescriptor::AUTHENTICATOR_TRANSPORTS;
 	}
 
 	/**
