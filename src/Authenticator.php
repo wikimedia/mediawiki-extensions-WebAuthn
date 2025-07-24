@@ -477,6 +477,10 @@ class Authenticator {
 			),
 		];
 
+		$authSelectorCriteria = $this->context->getConfig()->get( 'WebAuthnLimitPasskeysToRoaming' )
+			? AuthenticatorSelectionCriteria::AUTHENTICATOR_ATTACHMENT_CROSS_PLATFORM
+			: AuthenticatorSelectionCriteria::AUTHENTICATOR_ATTACHMENT_NO_PREFERENCE;
+
 		return new PublicKeyCredentialCreationOptions(
 			$rpEntity,
 			$userEntity,
@@ -484,7 +488,9 @@ class Authenticator {
 			$publicKeyCredParametersList,
 			static::CLIENT_ACTION_TIMEOUT,
 			$excludedPublicKeyDescriptors,
-			new AuthenticatorSelectionCriteria(),
+			new AuthenticatorSelectionCriteria(
+				$authSelectorCriteria,
+			),
 			PublicKeyCredentialCreationOptions::ATTESTATION_CONVEYANCE_PREFERENCE_NONE,
 			new AuthenticationExtensionsClientInputs()
 		);
