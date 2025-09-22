@@ -8,7 +8,7 @@
 	"webauthn-desc": "{{desc|name=WebAuthn|url=https://www.mediawiki.org/wiki/Extension:WebAuthn}}",
 	"webauthn-module-label": "User preference value when WebAuthn module is enabled",
 	"webauthn-ui-login-prompt": "Message explaining user-required actions on login",
-	"webauthn-ui-add-key": "Button label for adding new webauthn keys",
+	"webauthn-ui-add-key": "Button label for adding new WebAuthn keys",
 	"webauthn-error-browser-unsupported": "Error message when WebAuthn API is not supported by the browser",
 	"webauthn-error-browser-unsupported-console": "Error shown to users in the console if their device is unsupported",
 	"webauthn-error-auth-generic": "Generic error message for authentication process failing",
