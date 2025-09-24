@@ -37,7 +37,8 @@
 		}
 	},
 	"Hooks": {
-		"AuthChangeFormFields": "WebAuthnHooks"
+		"AuthChangeFormFields": "WebAuthnHooks",
+		"ResourceLoaderGetConfigVars": "WebAuthnHooks"
 	},
 	"ResourceModules": {
 		"ext.webauthn.ui.base": {
