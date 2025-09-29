@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Diman Russkov",
-			"Okras"
+			"Okras",
+			"Vonavy"
 		]
 	},
 	"webauthn-desc": "Обеспечивает поддержку аутентификации с использованием протокола WebAuthn.",
