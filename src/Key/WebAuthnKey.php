@@ -122,6 +122,8 @@ class WebAuthnKey implements IAuthKey {
 
 	protected RequestContext $context;
 
+	protected array $credentialTransports = [];
+
 	/**
 	 * Create a new empty key instance.
 	 *
@@ -202,6 +204,7 @@ class WebAuthnKey implements IAuthKey {
 		$this->userHandle = base64_decode( $data['userHandle'] );
 		$this->friendlyName = $data['friendlyName'];
 		$this->signCounter = $data['counter'];
+		$this->credentialTransports = $data['transports'];
 		$this->attestedCredentialData = new AttestedCredentialData(
 			Uuid::fromString( $data['aaguid'] ),
 			base64_decode( $data['publicKeyCredentialId'] ),
@@ -327,8 +330,7 @@ class WebAuthnKey implements IAuthKey {
 	 * @return array
 	 */
 	public function getTransports() {
-		// FIXME: We should be loading these from the DB
-		return PublicKeyCredentialDescriptor::AUTHENTICATOR_TRANSPORTS;
+		return $this->credentialTransports;
 	}
 
 	/**
@@ -417,6 +419,7 @@ class WebAuthnKey implements IAuthKey {
 			$this->attestedCredentialData = $response->attestationObject
 				->authData->attestedCredentialData;
 			$this->signCounter = $response->attestationObject->authData->signCount;
+			$this->credentialTransports = $response->transports;
 
 			$this->logger->info(
 				"User {$user->getUser()->getName()} registered new WebAuthn key"
