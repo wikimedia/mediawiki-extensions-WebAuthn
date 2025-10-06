@@ -3,7 +3,8 @@
 		"authors": [
 			"Minh Nguyen",
 			"NguoiDungKhongDinhDanh",
-			"Vinhtantran"
+			"Vinhtantran",
+			"Nvdtn19"
 		]
 	},
 	"webauthn-desc": "Hỗ trợ xác thực bằng giao thức WebAuth",
@@ -26,7 +27,7 @@
 	"webauthn-ui-key-register-help": "Chọn biệt danh cho chìa khóa của bạn",
 	"webauthn-error-cannot-remove-key": "Không thể xóa chìa khóa",
 	"webauthn-error-get-authinfo-fail": "Không thể truy xuất thông tin xác thực.",
-	"oathauth-webauthn-add-key-section-name": "Đăng ký chìa khóa WebAuthn mới",
+	"oathauth-webauthn-add-key-section-name": "Tạo mã WebAuthn mới",
 	"oathauth-webauthn-disable-section-name": "Tắt WebAuthn",
 	"webauthn-error-get-reginfo-fail": "Không thể truy xuất thông tin đăng ký.",
 	"webauthn-ui-disable-prompt": "Vui lòng chạm vào thiết bị xác thực của bạn hoặc làm theo hướng dẫn trên trình duyệt để xác nhận tắt Xác thực Web",
