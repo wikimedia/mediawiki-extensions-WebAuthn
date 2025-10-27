@@ -4,19 +4,20 @@
 			"Minh Nguyen",
 			"NguoiDungKhongDinhDanh",
 			"Vinhtantran",
-			"Nvdtn19"
+			"Nvdtn19",
+			"Phungminh141"
 		]
 	},
-	"webauthn-desc": "Hỗ trợ xác thực bằng giao thức WebAuth",
+	"webauthn-desc": "Hỗ trợ xác thực bằng giao thức WebAuthn",
 	"webauthn-module-label": "Xác thực Web (WebAuthn)",
 	"webauthn-ui-login-prompt": "Vui lòng chạm vào thiết bị xác thực của bạn hoặc làm theo hướng dẫn trên trình duyệt",
 	"webauthn-ui-add-key": "Thêm chìa khóa",
-	"webauthn-error-browser-unsupported": "Trình duyệt này không hỗ trợ Xác thực Web hoặc trang web này không hỗ trợ. Vui lòng dùng một trình duyệt khác. [https://www.mediawiki.org/wiki/Extension:WebAuthn#Browser_support Đọc thêm]",
+	"webauthn-error-browser-unsupported": "Trình duyệt này không hỗ trợ WebAuthentication hoặc tính năng này không khả dụng trên trang web này. Vui lòng thử bằng một trình duyệt khác. [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:WebAuthn#Browser_support Đọc thêm]",
 	"webauthn-error-browser-unsupported-console": "Trình duyệt này không hỗ trợ Xác thực Web hoặc trang web này không hỗ trợ",
 	"webauthn-error-auth-generic": "Quá trình xác thực bị gián đoạn. Vui lòng bắt đầu lại quá trình xác thực",
 	"webauthn-error-reg-generic": "Không thể xác thực chìa khóa của bạn. Vui lòng bắt đầu lại quá trình đăng ký",
 	"webauthn-key-type-missmatch": "Người dùng đã đăng ký nhiều loại chìa khóa",
-	"oathauth-webauthn-registered-keys-section-name": "Chìa khóa đã đăng ký",
+	"oathauth-webauthn-registered-keys-section-name": "Chìa khóa đã tạo",
 	"webuathn-ui-remove-key": "Xóa",
 	"webauthn-error-module-not-enabled": "Mô đun “$1” chưa được bật cho thành viên “$2”",
 	"webauthn-error-invalid-key": "Thành viên “$1” đã bật mô đun WebAuthn, nhưng chìa khóa bị thiết lập sai",
@@ -33,5 +34,9 @@
 	"webauthn-ui-disable-prompt": "Vui lòng chạm vào thiết bị xác thực của bạn hoặc làm theo hướng dẫn trên trình duyệt để xác nhận tắt Xác thực Web",
 	"webauthn-error-max-keys-reached": "Được đăng ký tối đa {{PLURAL:$1|$1 khóa}}",
 	"webauthn-module-description": "WebAuthn (Xác thực Web) là một tiêu chuẩn trên web do World Wide Web Consortium (W3C) xuất bản. WebAuthn là thành phần trọng tâm của Dự án FIDO2 do Liên minh FIDO điều hành. Mục tiêu của dự án là nhằm chuẩn hóa giao diện xác minh người dùng dành cho các ứng dụng web và các dịch vụ sử dụng công cụ mã hóa theo khóa công cộng. [https://en.wikipedia.org/wiki/WebAuthn Xem thêm (tiếng Anh)]",
-	"webauthn-ui-reload-page-label": "Tải lại trang"
+	"webauthn-ui-reload-page-label": "Tải lại trang",
+	"webauthn-authentication-info-label": "Dữ liệu xác thực",
+	"webauthn-authentication-info-help": "Dữ liệu xác thực được chuyển đến máy khách để truy xuất thông tin xác thực",
+	"webauthn-credential-label": "Thông tin người dùng",
+	"webauthn-credential-help": "Thông tin xác thực của người dùng dựa trên dữ liệu xác thực"
 }
