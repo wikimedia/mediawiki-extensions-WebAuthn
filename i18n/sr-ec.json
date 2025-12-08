@@ -3,5 +3,7 @@
 		"authors": [
 			"Milicevic01"
 		]
-	}
+	},
+	"webauthn-ui-add-key": "Додај кључ",
+	"webuathn-ui-remove-key": "Уклони"
 }
