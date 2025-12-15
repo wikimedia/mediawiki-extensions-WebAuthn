@@ -4,8 +4,16 @@
 			"Samoasambia"
 		]
 	},
+	"webauthn-desc": "Tarjoaa tunnistautumismenetelmän käyttäen WebAuthn-protokollaa",
 	"webauthn-ui-add-key": "Lisää avain",
+	"oathauth-webauthn-registered-keys-section-name": "Rekisteröidyt avaimet",
 	"webuathn-ui-remove-key": "Poista",
+	"webauthn-error-get-authinfo-fail": "Tunnistautumistietoja ei voitu hakea.",
 	"oathauth-webauthn-add-key-section-name": "Rekisteröi uusi WebAuthn-avain",
-	"webauthn-ui-reload-page-label": "Päivitä sivu"
+	"webauthn-error-get-reginfo-fail": "Rekisteröintitietoja ei voitu hakea.",
+	"webauthn-ui-reload-page-label": "Päivitä sivu",
+	"webauthn-authentication-info-label": "Tunnistautumistiedot",
+	"webauthn-authentication-info-help": "Asiakkaalle välitetyt tunnistautumistiedot todennustietojen hakemista varten",
+	"webauthn-credential-label": "Käyttäjän todennustiedot",
+	"webauthn-credential-help": "Käyttäjän todennustiedot tunnistautumistietojen perusteella"
 }
