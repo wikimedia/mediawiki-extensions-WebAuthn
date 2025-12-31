@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Felba",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Stefan2255"
 		]
 	},
 	"webauthn-desc": "Tillhandahåller autentiseringssupport med WebAuthn-protokoll",
