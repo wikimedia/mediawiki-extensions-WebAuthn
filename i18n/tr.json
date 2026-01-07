@@ -4,7 +4,8 @@
 			"BaRaN6161 TURK",
 			"Hedda",
 			"Vito Genovese",
-			"SaldırganSincap"
+			"SaldırganSincap",
+			"LisafBia"
 		]
 	},
 	"webauthn-desc": "WebAuthn protokolünü kullanarak kimlik doğrulama desteği sağlar",
