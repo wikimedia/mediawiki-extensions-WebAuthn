@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Felba",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Stefan2255"
 		]
 	},
 	"webauthn-desc": "Tillhandahåller autentiseringssupport med WebAuthn-protokoll",
-	"webauthn-module-label": "Webautentisering (WebAuthn)",
+	"webauthn-module-label": "Säkerhetsnyckel",
 	"webauthn-ui-login-prompt": "Vänligen tryck på din verifieringsenhet eller följ instruktionerna i webbläsaren",
 	"webauthn-ui-add-key": "Lägg till nyckel",
 	"webauthn-error-browser-unsupported": "Denna webbläsare stödjer inte WebAuthentication eller så är det inte tillgängligt för denna webbplats. Vänligen försök igen med en annan webbläsare. \n[https://www.mediawiki.org/wiki/Extension:WebAuthn#Browser_support Läs mer]",
@@ -15,13 +16,13 @@
 	"webauthn-error-reg-generic": "Kunde inte verifiera din nyckel. Vänligen starta registreringsprocessen igen.",
 	"oathauth-webauthn-registered-keys-section-name": "Registrerade nycklar",
 	"webuathn-ui-remove-key": "Ta bort",
-	"webauthn-error-module-not-enabled": "Modul \"$1\" är inte påslagen för {{GENDER:$2|användare \"$2\"}}",
-	"webauthn-error-verification-failed": "Verifiering misslyckades",
-	"webauthn-error-cannot-register": "{{GENDER:$1|Användare \"$1\"}} kan inte registrera en ny legitimationsuppgift",
-	"webauthn-error-invalid-new-key": "Den nya nyckeln som återkommit av modulen är inte enligt efterfrågad typ",
-	"webauthn-error-registration-failed": "Registrering av ny nyckel misslyckades",
-	"webauthn-ui-key-register-help": "Välj smeknamnet på din nyckel",
-	"webauthn-error-cannot-remove-key": "Nyckeln kan inte tas bort",
+	"webauthn-error-module-not-enabled": "Modul \"$1\" är inte påslagen för {{GENDER:$2|användare \"$2\"}}.",
+	"webauthn-error-verification-failed": "WebAuthn-verifieringen misslyckades.",
+	"webauthn-error-cannot-register": "{{GENDER:$1|Användare \"$1\"}} kan inte registrera en ny legitimationsuppgift.",
+	"webauthn-error-invalid-new-key": "Den nya nyckeln som returneras av modulen är inte av efterfrågad typ.",
+	"webauthn-error-registration-failed": "Registrering av ny nyckel misslyckades.",
+	"webauthn-ui-key-register-help": "Välj smeknamnet på din nyckel:",
+	"webauthn-error-cannot-remove-key": "Nyckeln kan inte tas bort.",
 	"webauthn-error-get-authinfo-fail": "Autentiseringsinformation kunde inte hämtas.",
 	"oathauth-webauthn-add-key-section-name": "Registrera ny WebAuthn-nyckel",
 	"webauthn-error-get-reginfo-fail": "Autentiseringsinformation kunde inte hämtas.",

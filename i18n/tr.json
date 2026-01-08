@@ -4,7 +4,8 @@
 			"BaRaN6161 TURK",
 			"Hedda",
 			"Vito Genovese",
-			"SaldırganSincap"
+			"SaldırganSincap",
+			"LisafBia"
 		]
 	},
 	"webauthn-desc": "WebAuthn protokolünü kullanarak kimlik doğrulama desteği sağlar",
@@ -33,5 +34,6 @@
 	"webauthn-authentication-info-label": "Kimlik doğrulama verileri",
 	"webauthn-authentication-info-help": "Kimlik bilgilerinin alınması için istemciye geçirilen kimlik doğrulama verileri",
 	"webauthn-credential-label": "Kullanıcı kimlik bilgisi",
-	"webauthn-credential-help": "Kimlik doğrulama verilerine dayalı kullanıcı kimlik bilgileri"
+	"webauthn-credential-help": "Kimlik doğrulama verilerine dayalı kullanıcı kimlik bilgileri",
+	"webauthn-add-security-key": "Güvenlik anahtarı ekleyin"
 }
