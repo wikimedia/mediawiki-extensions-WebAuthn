@@ -5,7 +5,8 @@
 			"DDPAT",
 			"Ice bulldog",
 			"Piramidion",
-			"Ата"
+			"Ата",
+			"Movses"
 		]
 	},
 	"webauthn-desc": "Надає підтримку автентифікації за допомогою протоколу WebAuthn",
